@@ -1,0 +1,21 @@
+{
+    "name": "swichers/onelink-otx",
+    "description": "OneLink OTX API helper class.",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Steven Wichers",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "rmccue/requests": ">=1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "StevenWichers\\": "src/"
+        }
+    }
+}
